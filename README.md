@@ -1,5 +1,7 @@
 # read-ini-file
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zkochan/read-ini-file.svg)](https://greenkeeper.io/)
+
 > Read and parse an ini file
 
 <!--@shields('npm', 'travis')-->
