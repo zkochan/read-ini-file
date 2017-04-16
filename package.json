@@ -1,0 +1,56 @@
+{
+  "name": "read-ini-file",
+  "version": "0.0.0",
+  "description": "Read and parse an ini file",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mos t && standard && tape test",
+    "md": "mos"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkochan/read-ini-file.git"
+  },
+  "mos": {
+    "plugins": [
+      "readme"
+    ],
+    "installation": {
+      "useShortAlias": true
+    }
+  },
+  "keywords": [
+    "read",
+    "ini",
+    "parse",
+    "file",
+    "fs",
+    "graceful",
+    "load"
+  ],
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "zoltankochan@gmail.com",
+    "url": "https://www.kochan.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zkochan/read-ini-file/issues"
+  },
+  "homepage": "https://github.com/zkochan/read-ini-file#readme",
+  "dependencies": {
+    "graceful-fs": "^4.1.11",
+    "ini": "^1.3.4",
+    "pify": "^2.3.0",
+    "strip-bom": "^3.0.0"
+  },
+  "devDependencies": {
+    "mos": "^2.0.0-alpha.3",
+    "mos-plugin-readme": "^1.0.4",
+    "standard": "^10.0.2",
+    "tape": "^4.6.3"
+  }
+}
