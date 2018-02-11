@@ -1,7 +1,7 @@
 'use strict'
 const path = require('path')
 const test = require('tape')
-const m = require('..')
+const m = require('read-ini-file')
 
 const fixture = path.join(__dirname, 'fixture.ini')
 
