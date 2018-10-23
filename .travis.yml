@@ -1,12 +1,11 @@
 language: node_js
 node_js:
-  - 4
   - 6
   - 8
-  - 9
+  - 10
 sudo: false
 before_install:
-  - curl -L https://unpkg.com/@pnpm/self-installer | node
+  - curl -L https://unpkg.com/@pnpm/self-installer | PNPM_VERSION=2.17.0 node
 install:
   - pnpm i
 script:
