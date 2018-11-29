@@ -1,3 +1,5 @@
+> moved https://github.com/zkochan/packages/tree/master/read-ini-file
+
 # read-ini-file
 
 > Read and parse an ini file
